@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - name: Instalacja zależności
+        run: uv sync --locked
+      - name: Lintowanie (ruff)
+        run: uv run ruff check .
+      - name: Formatowanie (ruff)
+        run: uv run ruff format --check .
