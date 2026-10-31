@@ -11,9 +11,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v6
-      - name: Instalacja zależności
+      - name: Install dependencies
         run: uv sync --locked
-      - name: Lintowanie (ruff)
+      - name: Lint (ruff)
         run: uv run ruff check .
-      - name: Formatowanie (ruff)
+      - name: Check formatting (ruff)
         run: uv run ruff format --check .
