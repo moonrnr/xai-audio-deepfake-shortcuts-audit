@@ -7,7 +7,11 @@ authors = [
     { name = "moonrnr", email = "moonrnr@users.noreply.github.com" }
 ]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.11.2",
+    "pandas>=3.1.0",
+    "soundfile>=0.14.0",
+]
 
 [project.scripts]
 xai-audio-deepfake-shortcuts-audit = "xai_audio_deepfake_shortcuts_audit:main"
@@ -18,6 +22,8 @@ build-backend = "uv_build"
 
 [dependency-groups]
 dev = [
+    "ipykernel>=7.4.0",
+    "jupyter>=1.1.1",
     "pre-commit>=4.7.0",
     "pytest>=9.2.0",
     "ruff>=0.17.3",

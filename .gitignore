@@ -5,3 +5,7 @@ __pycache__/
 .idea/
 
 .DS_Store
+
+datasets/
+
+draft_notes_files/
