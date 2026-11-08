@@ -6,10 +6,10 @@ readme = "README.md"
 authors = [
     { name = "moonrnr", email = "moonrnr@users.noreply.github.com" }
 ]
-requires-python = ">=3.11"
+requires-python = ">=3.10"
 dependencies = [
-    "matplotlib>=3.11.2",
-    "pandas>=3.1.0",
+    "matplotlib>=3.10",
+    "pandas>=2.3",
     "soundfile>=0.14.0",
 ]
 
@@ -22,16 +22,16 @@ build-backend = "uv_build"
 
 [dependency-groups]
 dev = [
-    "ipykernel>=7.4.0",
+    "ipykernel>=6.29",
     "jupyter>=1.1.1",
-    "pre-commit>=4.7.0",
-    "pytest>=9.2.0",
+    "pre-commit>=4.0",
+    "pytest>=8.3",
     "ruff>=0.17.3",
 ]
 
 [tool.ruff]
 line-length = 100
-target-version = "py311"
+target-version = "py310"
 
 [tool.ruff.lint]
 select = ["E", "F", "W", "I", "UP", "B"]
