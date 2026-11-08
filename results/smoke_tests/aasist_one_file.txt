@@ -1,0 +1,10 @@
+file: /workspace/data/smoke_tests/speech/LA_E_5849185.flac
+GPU: NVIDIA GeForce RTX 4090
+logits [spoof, bona fide]: [-6.88115930557251, 4.459448337554932]
+score (bona fide): 4.459448337554932
+GPU memory used by the model: 193.3 MB
+file: /workspace/data/smoke_tests/speech/LA_E_2834763.flac
+GPU: NVIDIA GeForce RTX 4090
+logits [spoof, bona fide]: [6.385300636291504, -6.7434563636779785]
+score (bona fide): -6.7434563636779785
+GPU memory used by the model: 193.3 MB
