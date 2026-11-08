@@ -30,14 +30,14 @@ Short summary of the detectors of this project: three speech detectors (AASIST, 
 
 ## 2. Checkpoints
 
-| # | Model | Checkpoint | Link |
-|---|---|---|---|
-| 1 | AASIST | `AASIST.pth`, `AASIST-L.pth` (in the repository) | https://github.com/clovaai/aasist/tree/a04c9863f63d44471dde8a6abcb3b082b07cd1d1/models/weights |
-| 2 | RawNet2 | `pre_trained_DF_RawNet2.zip` | https://www.asvspoof.org/asvspoof2021/pre_trained_DF_RawNet2.zip |
-| 3 | wav2vec 2.0 + AASIST | `best_SSL_model_LA.pth`, `best_SSL_model_DF.pth` (Google Drive) | https://drive.google.com/drive/folders/1c4ywztEVlYVijfwbGLl9OEa1SNtFKppB?usp=sharing |
-| 4 | XLS-R 300M (base of wav2vec 2.0 + AASIST) | `xlsr2_300m.pt` | https://dl.fbaipublicfiles.com/fairseq/wav2vec/xlsr2_300m.pt |
-| 5 | SONICS `sonics-spectttra-alpha-5s` | `pytorch_model.bin`, `config.json` | https://huggingface.co/awsaf49/sonics-spectttra-alpha-5s/tree/d30e3553a5ab08a171bdffdbbd2d792ac7970d65 |
-| 6 | SONICS `sonics-spectttra-alpha-120s` | `pytorch_model.bin`, `config.json` | https://huggingface.co/awsaf49/sonics-spectttra-alpha-120s/tree/094b32a5545098a71c113f6ae9d5c55310564268 |
+| # | Model | Checkpoint | Link | Source of the link |
+|---|---|---|---|---|
+| 1 | AASIST | `AASIST.pth`, `AASIST-L.pth` (in the repository) | https://github.com/clovaai/aasist/tree/a04c9863f63d44471dde8a6abcb3b082b07cd1d1/models/weights | `clovaai/aasist` `README.md` l. 53–54; `config/AASIST.conf` l. 4 (`./models/weights/AASIST.pth`); link = this folder at the fixed commit |
+| 2 | RawNet2 | `pre_trained_DF_RawNet2.zip` | https://www.asvspoof.org/asvspoof2021/pre_trained_DF_RawNet2.zip | `asvspoof-challenge/2021` `LA/Baseline-RawNet2/README.md` l. 39 |
+| 3 | wav2vec 2.0 + AASIST | `best_SSL_model_LA.pth`, `best_SSL_model_DF.pth` (Google Drive) | https://drive.google.com/drive/folders/1c4ywztEVlYVijfwbGLl9OEa1SNtFKppB?usp=sharing | `TakHemlata/SSL_Anti-spoofing` `README.md` l. 56 |
+| 4 | XLS-R 300M (base of wav2vec 2.0 + AASIST) | `xlsr2_300m.pt` | https://dl.fbaipublicfiles.com/fairseq/wav2vec/xlsr2_300m.pt | `TakHemlata/SSL_Anti-spoofing` `README.md` l. 37–38 → bundled fairseq `examples/wav2vec/xlsr/README.md` l. 7 |
+| 5 | SONICS `sonics-spectttra-alpha-5s` | `pytorch_model.bin`, `config.json` | https://huggingface.co/awsaf49/sonics-spectttra-alpha-5s/tree/d30e3553a5ab08a171bdffdbbd2d792ac7970d65 | `awsaf49/sonics` `README.md` l. 175; commit: latest on the Hugging Face "Files and versions" page (2026-11-05) |
+| 6 | SONICS `sonics-spectttra-alpha-120s` | `pytorch_model.bin`, `config.json` | https://huggingface.co/awsaf49/sonics-spectttra-alpha-120s/tree/094b32a5545098a71c113f6ae9d5c55310564268 | `awsaf49/sonics` `README.md` l. 178; commit: latest on the Hugging Face "Files and versions" page (2026-11-05) |
 
 Links to the backup checkpoints: section 7.
 
