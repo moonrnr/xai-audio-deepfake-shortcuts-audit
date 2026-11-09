@@ -9,3 +9,5 @@ __pycache__/
 datasets/
 
 draft_notes_files/
+
+outputs/
