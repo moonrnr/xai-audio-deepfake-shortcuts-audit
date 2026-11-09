@@ -1,0 +1,2 @@
+model,device,torch,load_s,warmup,repeat,predict_ms_median,predict_ms_min,predict_ms_max,n_files,scoring_s,scoring_s_per_file,peak_gpu_mb
+aasist,NVIDIA GeForce RTX 4090,2.9.1+cu128,0.376,5,20,3.153,3.144,3.16,156,1.916,0.0123,203
