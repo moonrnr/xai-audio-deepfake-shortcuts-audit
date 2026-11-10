@@ -1,0 +1,4 @@
+threshold_db,n_bonafide,n_spoof,bonafide_removed_s_median,spoof_removed_s_median,bonafide_delta_median,spoof_delta_median,bonafide_decision_changed,spoof_decision_changed,bonafide_repeated_after,eer_before,eer_after
+-40.0,39,39,0.78,0.05,-4.499552,-0.0378810000000005,16,2,38,0.0,0.15384615384615385
+-35.0,39,39,0.91,0.08,-5.990661,-0.17168099999999953,24,3,38,0.0,0.1794871794871795
+-30.0,39,39,0.97,0.08,-6.779456,0.0,29,3,39,0.0,0.1794871794871795
