@@ -1,0 +1,4 @@
+feature,coefficient,towards,median_bonafide,median_spoof
+bandwidth_hz,-1.725103419950902,bonafide,8000.0,7760.0
+duration_s,0.20256308186307204,spoof,3.24003125,3.1970625000000004
+average_loudness_dbfs,0.033152712073015955,spoof,-18.81437314487379,-18.46429289388061
