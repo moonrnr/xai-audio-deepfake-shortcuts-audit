@@ -12,6 +12,7 @@ dependencies = [
     "librosa>=0.11.0",
     "matplotlib>=3.10",
     "pandas>=2.3",
+    "scikit-learn>=1.7.2",
     "soundfile>=0.14.0",
 ]
 
