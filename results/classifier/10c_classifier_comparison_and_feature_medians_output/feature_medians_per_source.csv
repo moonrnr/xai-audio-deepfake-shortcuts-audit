@@ -1,0 +1,7 @@
+dataset,subset,source,label,recordings,duration_s,leading_silence_s_-30dB,trailing_silence_s_-30dB,average_loudness_dbfs,bandwidth_hz
+03_asvspoof_2021_df,eval,asvspoof,bonafide,7939,3.288,1.02,0.424,-19.570224424185003,8000.0
+03_asvspoof_2021_df,eval,asvspoof,spoof,73856,2.304,0.07,0.2650625,-17.370842337086373,7800.0
+03_asvspoof_2021_df,eval,vcc2018,bonafide,3780,3.304,0.21,0.25346875,-17.39240584032183,8000.0
+03_asvspoof_2021_df,eval,vcc2018,spoof,182403,3.1550625,0.21,0.245,-18.155792245615196,7600.0
+03_asvspoof_2021_df,eval,vcc2020,bonafide,3150,3.417375,0.21,0.28,-17.250141088944858,8000.0
+03_asvspoof_2021_df,eval,vcc2020,spoof,262800,2.88,0.15,0.245,-17.411537102695135,7920.0

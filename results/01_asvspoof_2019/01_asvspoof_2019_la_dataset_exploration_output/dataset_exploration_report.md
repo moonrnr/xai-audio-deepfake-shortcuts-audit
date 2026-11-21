@@ -1,6 +1,6 @@
 # ASVspoof 2019 LA – dataset check report
 
-- Generated: 2026-11-02 20:47
+- Generated: 2026-11-16 13:48
 - Dataset folder: `datasets/01_asvspoof_2019/LA`
 - Notebook: `notebooks/01_asvspoof_2019_la_dataset_exploration.ipynb`
 
